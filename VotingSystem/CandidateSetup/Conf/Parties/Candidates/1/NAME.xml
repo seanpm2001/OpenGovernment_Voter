@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<xml>
+    <candidate>
+        <name>
+            <first-name>First name</first-name>
+            <middle-name>Middle name</middle-name>
+            <last-name>Last name</middle-name>
+        </name>
+        <bio>
+            <age>10</age>
+            <date-of-birth>
+                <yyyy-mm-dd>1970-01-01</yyyy-mm-dd>
+                <mm-yyyy-dd>01-1970-01</mm-yyyy-dd>
+                <mm-dd-yyyy>01-01-1970</mm-dd-yyyy>
+             </date-of-birth>
+             <gender>
+             
+             </gender>
+             <originCountry></originCountry>
+             <currentCountry></currentCountry>
+        </bio>
+        <query>
+            <q>
+                <for>
+                    <list></list>
+                </for>
+                <against>
+                    <list></list>   
+                </against>
+                <campaign-videos>
+                    <personal-website>
+                        <v>
+                            <video></video>
+                        </v>
+                    </personal-website>
+                    <opengovernment-voter-local-link>
+                        <v>
+                            <video1>
+                                <fileType>MP4</filetype>
+                                <duration-seconds>60</duration-seconds>
+                                <resolution>1920x1080</resolution>
+                                <refresh-rate>60hz</refresh-rate>
+                                <upload-date>
+                                    <yyyy-mm-dd>1970-01-01</yyyy-mm-dd>
+                                    <mm-yyyy-dd>01-1970-01</mm-yyyy-dd>
+                                    <mm-dd-yyyy>01-01-1970</mm-dd-yyyy>
+                                </upload-date>
+                                <language>Undefined</language>
+                                <audio>MP3</audio>
+                                <videoLink>/$Candidate1/Videos/1/Video/VIDEO1.mp4</videoLink>
+                                <audioLink>/$Candidate1/Videos/1/Audio/VIDEO1_AUDIO/mp3</audioLink>
+                            </video1>
+                            <video2>
+                                <fileType>MP4</filetype>
+                                <duration-seconds>60</duration-seconds>
+                                <resolution>1920x1080</resolution>
+                                <refresh-rate>60hz</refresh-rate>
+                                <upload-date>
+                                    <yyyy-mm-dd>1970-01-01</yyyy-mm-dd>
+                                    <mm-yyyy-dd>01-1970-01</mm-yyyy-dd>
+                                    <mm-dd-yyyy>01-01-1970</mm-dd-yyyy>
+                                </upload-date>
+                                <language>Undefined</language>
+                                <audio>MP3</audio>
+                                <videoLink>/$Candidate1/Videos/2/Video/VIDEO2.mp4</videoLink>
+                                <audioLink>/$Candidate1/Videos/2/Audio/VIDEO2_AUDIO/mp3</audioLink>
+                            </video2>
+                            <video3>
+                                <fileType>MP4</filetype>
+                                <duration-seconds>60</duration-seconds>
+                                <resolution>1920x1080</resolution>
+                                <refresh-rate>60hz</refresh-rate>
+                                <upload-date>
+                                    <yyyy-mm-dd>1970-01-01</yyyy-mm-dd>
+                                    <mm-yyyy-dd>01-1970-01</mm-yyyy-dd>
+                                    <mm-dd-yyyy>01-01-1970</mm-dd-yyyy>
+                                </upload-date>
+                                <language>Undefined</language>
+                                <audio>MP3</audio>
+                                <videoLink>/$Candidate1/Videos/3/Video/VIDEO1.mp4</videoLink>
+                                <audioLink>/$Candidate1/Videos/3/Audio/VIDEO1_AUDIO/mp3</audioLink>
+                            </video3>
+                        </v>
+                    </opengovernment-voter-local-link>                  
+                </campaign-videos>
+                <funding>
+                    <code="yaml">
+                        # At least 1 funding source is required
+                        SOURCE1: 
+                        SOURCE2:
+                        SOURCE3:
+                        SOURCE4:
+                        SOURCE5:
+                        SOURCE6:
+                        SOURCE7:
+                        SOURCE8:
+                        SOURCE9:
+                    </code>
+                </funding>
+                <partisan>
+                    <code="toml">
+                        Party: ""
+                    </code>
+                </partisan>
+                <criminal-history>
+                    <crimes>
+                        <crime1>
+                            <type>None</type>
+                            <prisonTime>1 year</prisonTime>
+                            <pardoned>No</pardoned>
+                        </crime1>
+                    </crimes>
+                </criminal-history>
+                <controversies>
+                    <list>
+                        <!-- All controversies (from the past 20 years) MUST be listed !-->
+                    </list>
+                </controversies>
+                <PastControversies>
+                    <list>
+                        <!-- All controversies (from the entire lifetime of the candidate) MUST be listed !-->
+                    </list>
+                </PastControversies>
+                <pastSupport>
+                    <list>
+                        <!-- All past political support and affiliations must be listed !-->
+                    </list>
+                </pastSupport>
+                <pastOpposition>
+                    <list>
+                        <!-- All past political objections must be listed !-->
+                    </list>
+                </pastOpposition>
+            </q>
+        </query>
+    </candidate>
+</xml>
+<!-- File info
+File type: XML source file (*.xml)
+File version: 1 (2022, Thursday, July 14th at 2:21 pm PST)
+Line count (including blank lines and compiler line): 144
+!-->
+<!-- End of script !-->
