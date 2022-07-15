@@ -1,0 +1,58 @@
+TagS: Prevent backdoors, prevent information from being leaked, delete information after a certain amount of time
+
+Setup:
+
+Political parties [add] [remove]
+Non-partisan mode
+Test mode
+Register for government use
+{ Government type:
+{ Democracy type
+Direct democracy
+Industrial democracy
+}
+{ Democracy mode
+Representative democracy
+{ Unsupported:
+Demarchy
+Authoritarian
+}}
+{ Religious democracy
+Christian democracy
+Islamic democracy
+Jewish and Democratic State
+Theodemocracy
+} Ethnic democracy (Ethnocracy)
+Unsupported
+}
+}
+Candidate info:
+{List setup}
+For:
+Against:
+Videos:
+Funding:
+Party: 
+Non-affiliated?
+Past criminal offenses:
+Current controversies:
+Past controversies:
+Past for:
+Past Against:
+
+Parties.xml
+$NAME.xml
+q=$FOR
+q=$AGAINST
+q=videos$CurrentCampaign
+q=FUNDING.yml
+q=PARTISAN.toml
+q=CRIMINAL_HISTORY.md
+q=Controversies.csv
+q=PastControversies.csv
+q=PastSupport
+q=PastOpposition
+
+V: User Interface and frontend
+Python: Backend and general programming
+Another language: Possibly
